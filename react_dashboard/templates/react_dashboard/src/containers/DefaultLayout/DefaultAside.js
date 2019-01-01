@@ -50,29 +50,47 @@ class DefaultAside extends Component {
           <TabPane tabId="1">
             <ListGroup className="list-group-accent" tag={'div'}>
               <ListGroupItem className="list-group-item-accent-secondary bg-light text-center font-weight-bold text-muted text-uppercase small">Select a widget to add</ListGroupItem>
-              <ListGroupItem action tag="a" href="#" className="list-group-item-accent-warning list-group-item-divider">
+              <ListGroupItem action tag="a" href="#" className="list-group-item-accent-primary list-group-item-divider">
                 <div className="avatar float-right">
-                  <img className="img-avatar" src="assets/img/avatars/7.jpg" alt="admin@bootstrapmaster.com"></img>
+                  <img className="img-avatar" src="assets/img/widgets/map-widget.png" alt="admin@bootstrapmaster.com"></img>
                 </div>
                 <strong>Map</strong>
               </ListGroupItem>
+              <ListGroupItem action tag="a" href="#" className="list-group-item-accent-light list-group-item-divider">
+                <div className="avatar float-right">
+                  <img className="img-avatar" src="assets/img/widgets/aggregate-widget.png" alt="admin@bootstrapmaster.com"></img>
+                </div>
+                <strong>Aggregate Widget</strong>
+              </ListGroupItem>
               <ListGroupItem action tag="a" href="#" className="list-group-item-accent-danger list-group-item-divider">
                 <div className="avatar float-right">
-                  <img className="img-avatar" src="assets/img/avatars/7.jpg" alt="admin@bootstrapmaster.com"></img>
+                  <img className="img-avatar" src="assets/img/widgets/bar-widget.png" alt="admin@bootstrapmaster.com"></img>
                 </div>
                 <strong>Bar Chart</strong>
               </ListGroupItem>
               <ListGroupItem action tag="a" href="#" className="list-group-item-accent-dark list-group-item-divider">
                 <div className="avatar float-right">
-                  <img className="img-avatar" src="assets/img/avatars/7.jpg" alt="admin@bootstrapmaster.com"></img>
+                  <img className="img-avatar" src="assets/img/widgets/pie-widget.png" alt="admin@bootstrapmaster.com"></img>
                 </div>
                 <strong>Pie Chart</strong>
               </ListGroupItem>
               <ListGroupItem action tag="a" href="#" className="list-group-item-accent-info list-group-item-divider">
                 <div className="avatar float-right">
-                  <img className="img-avatar" src="assets/img/avatars/7.jpg" alt="admin@bootstrapmaster.com"></img>
+                  <img className="img-avatar" src="assets/img/widgets/line-widget.png" alt="admin@bootstrapmaster.com"></img>
                 </div>
                 <strong>Line Chart</strong>
+              </ListGroupItem>
+              <ListGroupItem action tag="a" href="#" className="list-group-item-accent-warning list-group-item-divider">
+                <div className="avatar float-right">
+                  <img className="img-avatar" src="assets/img/widgets/legend-widget.png" alt="admin@bootstrapmaster.com"></img>
+                </div>
+                <strong>Legend</strong>
+              </ListGroupItem>
+              <ListGroupItem action tag="a" href="#" className="list-group-item-accent-secondary list-group-item-divider">
+                <div className="avatar float-right">
+                  <img className="img-avatar" src="assets/img/widgets/identify-widget.png" alt="admin@bootstrapmaster.com"></img>
+                </div>
+                <strong>Identify</strong>
               </ListGroupItem>
             </ListGroup>
           </TabPane>
